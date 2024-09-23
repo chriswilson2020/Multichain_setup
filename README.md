@@ -94,6 +94,13 @@ On Node 1, grant the connect and send permissions to Node 2:
 multichain-cli mychain grant <node2-address> connect,send,receive
 ```
 
+### 4.3 Start the node
+
+On Node 2, run the following;
+```bash
+multichaind QMSchain -daemon
+```
+
 ## Step 5: Verify the Connection
 ### 5.1. Check the connected nodes on Node 1:
 ```bash
