@@ -91,7 +91,7 @@ This will return the node's address. Copy this address for the next step.
 
 On Node 1, grant the connect and send permissions to Node 2:
 ```bash
-multichain-cli mychain grant <node2-address> connect,send,read
+multichain-cli mychain grant <node2-address> connect,send,receive
 ```
 
 ## Step 5: Verify the Connection
